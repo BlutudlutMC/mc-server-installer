@@ -1,2 +1,28 @@
 # mc-server-installer
-A simple Minecraft Server Install Script!
+A Minecraft Server Install Script!
+I created a **Minecraft Server Install Script**
+# Usage / Installation
+## Information
+#### Script Infos
+Version of Script: V1
+Developer: Blutudlut
+#### Requirements
+Ubuntu Server
+ca. 1-2 GB RAM
+ca. 5 GB Disk (SSD / HDD)
+#### Recommended
+I tested this script in Ubuntu Server 18.04
+With a Ryzen9 CPU
+With 8 GB RAM
+With 512 GB SSD
+I installed CURL (apt install curl -y) before.
+## Usage
+To start the server type in your Home Directory: `bash MCServer/start.sh`
+To stop the server type in `stop` or press `CTRL+C`(CTRL+C IS GOING TO KILL THE SERVER)
+## Installation
+RUN THE SCRIPT WITH SUDO PREVILEGES
+FOR THE VERSION 1.17.1 (I will ad other versions soon!)
+Just simply type in `curl | bash`
+Wait and follow the promts.
+You are done!
+
