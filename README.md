@@ -18,11 +18,15 @@ With 512 GB SSD
 I installed CURL (apt install curl -y) before.
 ## Usage
 To start the server type in your Home Directory: `bash MCServer/start.sh`
-To stop the server type in `stop` or press `CTRL+C`(CTRL+C IS GOING TO KILL THE SERVER)
+To stop the server type in `stop` or press `CTRL+C` (CTRL+C IS GOING TO KILL THE SERVER)
 ## Installation
 RUN THE SCRIPT WITH SUDO PREVILEGES
-FOR THE VERSION 1.17.1 (I will ad other versions soon!)
-Just simply type in `curl | bash`
+For Minecraft Version 1.17.1 (I will ad other versions soon!)
+Just simply type in `curl https://raw.githubusercontent.com/BlutudlutMC/mc-server-installer/main/latest.sh | bash`
 Wait and follow the promts.
 You are done!
+# OTHER INFOS
+The script is currently in the BETA-PHASE.
+OTHER VERSIONS COMING SOON!
+Thanks for using this script!
 
