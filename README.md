@@ -22,7 +22,7 @@ To stop the server type in `stop` or press `CTRL+C` (CTRL+C IS GOING TO KILL THE
 ## Installation
 RUN THE SCRIPT WITH SUDO PREVILEGES
 For Minecraft Version 1.17.1 (I will ad other versions soon!)
-Just simply type in `curl https://raw.githubusercontent.com/BlutudlutMC/mc-server-installer/main/latest.sh | bash`
+Just simply type in `curl -Lo mcserverinstall.sh https://raw.githubusercontent.com/BlutudlutMC/mc-server-installer/main/latest.sh && bash ./mcserverinstall.sh`
 Wait and follow the promts.
 You are done!
 # OTHER INFOS
