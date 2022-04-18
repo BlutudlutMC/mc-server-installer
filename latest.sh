@@ -18,7 +18,7 @@ cd /srv/temp/mcserver/
 echo "${Green}Directory created!"
 echo "${Green}You selected Version 1.17.1!"
 sleep 1
-echo "${Green}Installing Java 18"
+echo "${Green}Installing Java 17"
 sleep 1
 echo "${Green}Using SDKMan... Installing..."
 curl -s "https://get.sdkman.io" | bash
@@ -48,13 +48,17 @@ done
 cd MCServer
 echo "eula=true" > eula.txt
 cp /srv/temp/mcserver/server1.17.1.jar server.jar
-echo "${Green}How many RAM do you want for your MCServer? Default: 1024 (DO NOT ENTER M OR MB!)"
+echo "${Green}How much RAM do you want for your MCServer? Default: 1024 (Do not enter M or MB!)"
 read ram
 echo "$ram is now your MCServer RAM."
 echo "java -Xmx$ram M -jar server.jar nogui"
-echo "java -Xmx$ram M -jar server.jar nogui" > start.sh
+echo "java -Xmx${ram}M -jar server.jar nogui" > start.sh
 echo "Your Minecraft Server is now installed successfully!"
-echo "You can start your server by typing in: cd /$HOME/MCServer/ && bash start.sh"
+echo "You can start your server by typing in: cd $HOME/MCServer/ && bash start.sh"
 echo "THANKS FOR USING THIS SCRIPT! <3"
-
-
+echo "Changelog:"
+echo "1.01 Hotfix"
+echo "Fixed start.sh Script"
+echo "Updated Java Installation"
+echo "Updated Install Information"
+echo "For more infos visit our Github"
