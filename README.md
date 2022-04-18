@@ -23,7 +23,7 @@ I created a **Minecraft Server Install Script**
 **You need Root Previleges!**
 ##### For Minecraft Version 1.17.1 (I will ad other versions soon!)
 ##### Just simply type in `curl -Lo mcserverinstall.sh https://raw.githubusercontent.com/BlutudlutMC/mc-server-installer/main/latest.sh && bash ./mcserverinstall.sh`
-More mirrors can be found [here](https://blutudlut.xyz/link/ghmsimirrors.html/)
+More mirrors can be found [here](https://cloud.blutudlut.xyz/index.php/s/fR2tpQJec6j6MGS)
 ##### Wait and follow the promts.
 ##### You are done!
 # OTHER INFOS
