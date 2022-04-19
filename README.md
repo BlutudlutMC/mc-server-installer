@@ -2,6 +2,7 @@
 A Minecraft Server Install Script!
 I created a **Minecraft Server Install Script**
 ## V2 is here ^^
+Click [here](#changelog) for more information
 # Usage / Installation
 ## Information
 #### Script Infos
@@ -37,3 +38,5 @@ More mirrors can be found [here](https://cloud.blutudlut.xyz/index.php/s/fR2tpQJ
   - Updated Java Installation
   - Updated Information after Installing
 
+2.0
+  - Created a fully new script!
