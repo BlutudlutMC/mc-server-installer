@@ -1,6 +1,7 @@
 # mc-server-installer
 A Minecraft Server Install Script!
 I created a **Minecraft Server Install Script**
+## V2 is here ^^
 # Usage / Installation
 ## Information
 #### Script Infos
