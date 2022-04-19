@@ -13,7 +13,7 @@ echo -e "${COLOR_WHITE}#                          #"
 echo -e "${COLOR_WHITE}#       by Blutudlut       #"
 echo -e "${COLOR_WHITE}#            V2            #"
 echo -e "${COLOR_WHITE}#                          #"
-echo -e "${COLOR_WHITE}#         MC: 1.18         #"
+echo -e "${COLOR_WHITE}#       MC: 1.17.1         #"
 echo -e "${COLOR_WHITE}############################"
 echo "* Continue?"
 select yn in "Yes" "No"; do
@@ -148,6 +148,7 @@ clear
 echo "* Deleted!"
 sleep 1
 clear
+chmod 777 ${HOME}/${DIRECTORY}/start.sh
 echo "Your Minecraft Server is now succesfully installed! To start the server type in ${HOME}/${DIRECTORY}/start.sh"
 echo -e "${COLOR_GREEN}Thanks for using my Script! <3"
-echo -e "${COLOR_WHITE}resetting color..."
+echo -e "${COLOR_WHITE}"
